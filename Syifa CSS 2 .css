@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;  
+  }
+  
+  .nav{
+      color: whitesmoke;
+      display: flex;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #92b2db;
+      position: fixed;
+      width: 100%;
+  }
+  .nav a{
+      color: rgb(144, 167, 231);
+  }
+  
+  .nav a{
+      color:whitesmoke
+  }
+  
+  .nav li{
+      padding: 5px;
+  }
+  
+  .nav li:hover{
+      background-color: #00ff;
+  }
+  
+  .data-list{
+      margin-left: 54.4%;
+  }
+  
+  .data-list li{
+  display: inline-block;
+  margin-left: 30px;
+  }
+  
+  .logo{
+      margin-left: 30px;
+  }
+  
+  .list{
+      display: none;
+      background-color: #222;
+      position: absolute;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 30px;
+  }
+  
+  .list li{
+      display: block;
+      margin-bottom: 10px;
+      color: whitesmoke;
+  }
+  .fa-chevron-down{
+      transform: rotate(0);
+      transition: 600ms;
+  }
+  .Galeri:hover .fa-chevron-down{
+      transform: rotate(-180deg);
+  }
+  
+  .data-list a{
+      text-decoration: none;
+  }
+  
+  .Galeri:hover .list{
+      display: block;
+  }
+  
+  /* header=====================*/
+  
+  .header{
+      display: flex;
+      margin-bottom: 100px;
+  }
+  
+  .des-header{
+      width: 40%;
+      margin: auto;
+  }
+  
+  .des-header h1{
+      font-weight: 800;
+     font-size: 3rem;
+     width: 90%;
+     padding-left: 30px;
+  }
+  .gambar{
+      width: 45%;
+      height: 85vh;
+      margin-top: 40.5px;
+  }
+  .gambar img{
+      width: 100%;
+      height: 100%;
+  }
+  
+  
+  .somed{
+      position: fixed;
+      margin-top: 32vh;
+      margin-left: 30px;
+  }
+  .somed li{
+      list-style: none;
+  }
+  .somed .fa-tiktok:hover{
+      color:#222;
+  }
+  
+  .somed .fa-instagram:hover{
+      color: #c32aa3;
+  }
+  
+  .somed .fa-whatsapp:hover{
+      color: green;
+  }
+  
+  
+  .somed .fa-brands{
+      font-size: 30px;
+      color: #222;
+      margin-bottom: 20px;
+  }
+  
+  /* bg card========== */
+  .bg-card{
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+  }
+  
+  .card{
+      width: 250px;
+      height: 310px;
+      margin: auto;
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+  .card:hover{
+      box-shadow: 0px 0px 10px #333;
+      transition: 300ms;
+  }
+  
+  .gambar-card{
+      width: 250px;
+      height: 200px;
+      overflow: hidden;
+  }
+  .gambar-card img{
+      width: 100%;
+      height: 100%;
+  }
+  .des-card{
+      padding: 5px;
+      padding: 9px;
+  }
+  .des-card h2{
+      font-family: sans-serif;
+      color: #333;
+      margin-bottom: 10px;
+  }
+  .des-card p{
+      line-height: 20px;
+  }
+  .bg-card a{
+      text-decoration: none;
+  }
+  
+  /footer ================/
+  .bg-footer{
+      height: 20vh;
+      background-color: #222;
+      text-align: center;
+      color: whitesmoke;
+      padding-top: 15vh;
+      margin-top: 80px;
+  }
+
+  body{
+    background-image:url('biru\ 3.jpg');}
+
